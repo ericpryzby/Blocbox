@@ -81,6 +81,12 @@ p {
   }
 }
 
+@media (min-width: 1600px) {
+  header .hero p {
+    font-size: 200%;
+  }
+}
+
 /* HEADER */
 
 header {
@@ -148,6 +154,26 @@ header .hero img {
   display: block;
   margin:3em auto 0;
 }
+
+/* -------------------------------------------------------------------
+Assignment 30 - adjust hero text for TV size. Need to keep this below 
+other hero text styles to ensure proper cascade flow */
+
+@media (min-width: 1600px) {
+  header .hero p,
+  header .hero a
+   {
+    font-size: 200%;
+  }
+}
+
+@media (min-width: 1600px) {
+  header .hero h1 {
+    font-size: 72px;
+  }
+}
+
+/* ------------------------------------------------------------------- */
 
 /* BUTTONS */
 
