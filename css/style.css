@@ -23,7 +23,7 @@ p {
   font-weight: 100;
 }
 
-/* GRID */
+/* ================ GRID =================== */
 
 .container {
   margin-right: auto;
@@ -90,7 +90,7 @@ p {
   }
 }
 
-/* HEADER */
+/* ============== HEADER =============== */
 
 header {
   color: #FFFFFF;
@@ -178,7 +178,7 @@ other hero text styles to ensure proper cascade flow */
 
 /* ------------------------------------------------------------------- */
 
-/* BUTTONS */
+/* =============== BUTTONS =================== */
 
 .btn {
   border-radius: 4px;
@@ -220,7 +220,7 @@ other hero text styles to ensure proper cascade flow */
   color: #3498DB;
 }
 
- /* PRICING */
+ /* ================= PRICING ================== */
 
  .pricing {
    background: #34495E url("../images/background.png") top center no-repeat;
@@ -311,7 +311,7 @@ other hero text styles to ensure proper cascade flow */
    font-style:italic;
  }
 
-/* TESTIMONIALS */
+/* ================== TESTIMONIALS ================ */
 
 .testimonials {
    padding: 4em 0;
@@ -369,7 +369,7 @@ other hero text styles to ensure proper cascade flow */
  }
 
 
- /* FOOTER */
+ /* ================= FOOTER ====================== */
 
 
  footer {
@@ -437,7 +437,7 @@ other hero text styles to ensure proper cascade flow */
      margin-bottom: 0px;
    }
 
-/* DASHBOARD */
+/* =================== DASHBOARD ===================== */
 
 .dashboard {
    background:#F7F7F7;
@@ -489,13 +489,17 @@ other hero text styles to ensure proper cascade flow */
    font-weight: 100;
  }
 
+  .left-nav .items ul li a:active {
+   color: #87CEFA;
+ }
+
  .left-nav .items ul li a i {
    width: 16px;
    text-align: center;
    margin-right: 8px;
  }
 
-/* LEFT NAVBAR SETTINGS */
+/* ================ LEFT NAVBAR SETTINGS ===================== */
 
  .left-nav .settings {
    position: absolute;
@@ -533,7 +537,7 @@ other hero text styles to ensure proper cascade flow */
  }
 
 
-/* CONTENT */
+/* ============== CONTENT ===================== */
 
  .content {
    padding: 6em 1% 1.5em;
@@ -578,7 +582,7 @@ other hero text styles to ensure proper cascade flow */
    padding: 20px;
  }
 
-/* Larger Mobile Devices */
+/* ============ Larger Mobile Devices =============== */
 
  @media (min-width:460px) {
    .content {
@@ -596,7 +600,7 @@ other hero text styles to ensure proper cascade flow */
    }
  }
 
-/* Tablets */
+/* =============== Tablets ====================== */
 
  @media (min-width:768px) {
    .content {
@@ -616,7 +620,7 @@ other hero text styles to ensure proper cascade flow */
    }
  }
 
-/* Laptops and Desktops */
+/* ================= Laptops and Desktops =================== */
 
  @media (min-width:992px) {
    .content {
