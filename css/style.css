@@ -49,7 +49,7 @@ p {
   float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  margin: 0 2% 10px;
 }
 
 @media (min-width: 768px) {
@@ -84,11 +84,13 @@ p {
   }
 }
 
+/*
 @media (min-width: 1600px) {
   header .hero p {
     font-size: 200%;
   }
 }
+*/
 
 /* ============== HEADER =============== */
 
@@ -162,6 +164,7 @@ header .hero img {
 Assignment 30 - adjust hero text for TV size. Need to keep this below 
 other hero text styles to ensure proper cascade flow */
 
+/*
 @media (min-width: 1600px) {
   header .hero p,
   header .hero a
@@ -175,6 +178,7 @@ other hero text styles to ensure proper cascade flow */
     font-size: 72px;
   }
 }
+*/
 
 /* ------------------------------------------------------------------- */
 
@@ -201,7 +205,7 @@ other hero text styles to ensure proper cascade flow */
 
 .benefits ul {
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 3.5em 0 2em 0;
 }
 
 .benefits ul li {
@@ -227,7 +231,7 @@ other hero text styles to ensure proper cascade flow */
    background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
    background-size:cover;
    text-align: center;
-   padding:4em 0;
+   padding:2em 0;
  }
 
  .pricing h2, .pricing p {
@@ -314,7 +318,7 @@ other hero text styles to ensure proper cascade flow */
 /* ================== TESTIMONIALS ================ */
 
 .testimonials {
-   padding: 4em 0;
+   padding: 2em 0;
    text-align: center;
  }
 
@@ -436,6 +440,20 @@ other hero text styles to ensure proper cascade flow */
      footer .one-third {
      margin-bottom: 0px;
    }
+
+
+@media (max-width: 415px) {
+   ul {
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+   }
+ }
+
+
+     footer .one-third {
+     margin-bottom: 0px;
+   }
+
 
 /* =================== DASHBOARD ===================== */
 
